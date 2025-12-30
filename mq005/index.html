@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="menuzinho" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="menu">
+        
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a</li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+        <article>
+            <h2>Estudo de Media Queries</h2>
+
+            <p>Você sabia que as lontras dão as mãos enquanto dormem para não se perderem umas das outras? Ou que as plantas conseguem “se comunicar” entre si através das raízes, avisando quando há perigo por perto? O coração humano bate cerca de 100 mil vezes por dia, trabalhando incansavelmente sem que a gente precise lembrar disso. E mais curioso ainda: o cheiro de chuva tem nome — chama-se petricor. Pequenos detalhes como esses mostram que o mundo está cheio de delicadezas escondidas, basta olhar com um pouco mais de atenção.</p>
+
+            <p>Os gatos piscam lentamente para demonstrar confiança e carinho, como se estivessem dizendo “eu me sinto seguro com você”. As estrelas que vemos no céu são, na verdade, mensagens do passado, já que sua luz leva anos para chegar até nós. Abelhas conseguem reconhecer rostos humanos, assim como nós reconhecemos os delas. E, curiosamente, o cérebro humano pode produzir sensações de conforto apenas ao ouvir sons suaves, como o barulho do vento ou da chuva. O mundo funciona em pequenos gestos silenciosos, cheios de significado, mesmo quando a gente não percebe.</p>
+
+            <p>Cada planeta carrega uma energia única que influencia diferentes áreas da nossa vida. O Sol representa nossa essência e a forma como brilhamos no mundo, enquanto a Lua guarda nossos sentimentos, memórias e intuições mais silenciosas. Marte fala sobre ação, coragem e impulso, e Júpiter expande tudo o que toca, trazendo crescimento e novas possibilidades. Já Saturno ensina através do tempo, da paciência e da construção sólida. Observar os planetas é como aprender a linguagem sutil do universo, que se move em ciclos constantes, assim como nós.</p>
+        </article>
+    </main>
+
+<script>
+    function clickMenu() {
+        if (menu.style.display == 'block') {
+        menu.style.display = 'none'
+        } else {
+        menu.style.display = 'block'
+        }
+    }
+</script>
+
+
+
+</body>
+</html>
